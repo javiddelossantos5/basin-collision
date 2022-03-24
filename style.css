@@ -126,7 +126,7 @@
 /* Hero Image Start */
 
 .hero {
-  background-image: url(./images/hero.avif);
+  background-image: url(./images/hero.jpg);
   height: 100vh;
   width: auto;
   background-size: cover;
