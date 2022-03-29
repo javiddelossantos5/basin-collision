@@ -178,7 +178,7 @@
   background-color: black;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
   .hero {
     background-attachment: scroll;
   }
@@ -233,6 +233,15 @@
   font-size: 18px;
   text-align: center;
   line-height: 25px;
+}
+
+.curls-text a {
+  margin-top: 25px;
+  text-decoration: none;
+  padding: 10px 25px;
+  border: 1px solid black;
+  border-radius: 25px;
+  color: rgb(77, 36, 36);
 }
 
 @media only screen and (max-width: 600px) {
@@ -431,7 +440,7 @@
 
 .products p {
   padding: 40px 0;
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .products a {
@@ -683,6 +692,7 @@ footer {
   padding: 5px 0;
   text-decoration: none;
   cursor: pointer;
+  color: black;
 }
 
 /* Contact Me End */
@@ -758,7 +768,13 @@ footer {
 
 /* Form Box New Start */
 
-form { max-width:420px; margin:50px auto; }
+form { 
+  max-width: 420px;
+  margin: 50px auto; 
+  background-color: black;
+  padding: 30px;
+  border-radius: 25px;
+}
 
 .feedback-input {
   color:white;
@@ -804,6 +820,26 @@ textarea {
 
 /* Form Box New End */
 
-/* Form Box End */
-
 /* Contact Us Page End */
+
+/* About Us Page Start */
+
+/* About Us header Start */
+
+.about-header {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-header h1{
+  font-size: 35px;
+  color: rgb(77, 36, 36);
+
+}
+
+/* About Us header End */
+
+/* About Us Page End */
+
