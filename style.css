@@ -147,7 +147,7 @@
 
 .hero-text h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
   font-weight: 100;
   margin-bottom: 25px;
   color: white;
@@ -155,7 +155,7 @@
 
 .hero-text h4 {
   text-align: center;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: 100;
   margin-bottom: 20px;
   color: white;
@@ -416,7 +416,8 @@
 
 .product {
   width: 90%;
-  margin: auto;
+  margin: 0 auto 50px auto;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -822,24 +823,88 @@ textarea {
 
 /* Contact Us Page End */
 
-/* About Us Page Start */
+/* review Us Page Start */
 
-/* About Us header Start */
+/* review Us header Start */
 
 .about-header {
-  height: 20vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .about-header h1{
   font-size: 35px;
   color: rgb(77, 36, 36);
-
+  margin: 40px 0 40px 0;
 }
 
-/* About Us header End */
+.about-header p{
+  font-size: 25px;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  
+}
 
-/* About Us Page End */
+/* review Us header End */
+
+/* Review Container for the individuals Start */
+
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  flex-wrap: wrap;
+  margin: 30px auto;
+}
+
+.about-container__customers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 25px 35px;
+  margin: 30px;
+}
+
+.about-container__customers h1{
+  font-size: 55px;
+  font-weight: 100;
+  border: 3px solid black;
+  padding: 30px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.stars i {
+  font-size: 25px;
+  color: #2590f4;
+  margin-bottom: 30px;
+}
+
+.about-container__customers p {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.about-container__customers h3{
+  color: #2590f4;
+}
+
+@media only screen and (max-width: 800px) {
+  .about-container__customers {
+    min-width: 100%;
+  }
+}
+
+/* Review Container for the individuals End */
+
+/* review Us Page End */
 
