@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
+:root {
+  --main-color: #9E2A2B;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -164,7 +168,7 @@
 
 .hero-text a {
   border: 1px solid black;
-  color: rgb(77, 36, 36);
+  color: var(--main-color);
   padding: 10px 25px;
   background-color: white;
   text-decoration: none;
@@ -224,7 +228,7 @@
   color: 2;
   font-size: 35px;
   margin-bottom: 20px;
-  color: rgb(77, 36, 36);
+  color: var(--main-color);
   font-weight: 800;
   text-align: center;
 }
@@ -233,15 +237,15 @@
   font-size: 18px;
   text-align: center;
   line-height: 25px;
+  margin-bottom: 25px;
 }
 
 .curls-text a {
-  margin-top: 25px;
   text-decoration: none;
   padding: 10px 25px;
   border: 1px solid black;
   border-radius: 25px;
-  color: rgb(77, 36, 36);
+  color: var(--main-color);
 }
 
 @media only screen and (max-width: 600px) {
@@ -299,7 +303,7 @@
   width: 80%;
   margin: 40px auto;
   padding: 40px 30px;
-  background-color: rgb(77, 36, 36);
+  background-color: var(--main-color);
 }
 
 .why-text {
@@ -376,7 +380,7 @@
 
 .basin h2 {
   font-family: monospace;
-  color: rgb(77, 36, 36);
+  color: var(--main-color);
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 25px;
@@ -393,7 +397,7 @@
 .basin a {
   font-size: 20px;
   padding: 10px 25px;
-  color: rgb(77, 36, 36);
+  color: var(--main-color);
   background-color: white;
   border: 1px solid black;
   border-radius: 25px;
@@ -407,7 +411,7 @@
 
 .header {
   font-family: monospace;
-  color: rgb(77, 36, 36);
+  color: var(--main-color);
   font-size: 40px;
   font-weight: 400;
   margin-bottom: 25px;
@@ -450,66 +454,10 @@
   border: 1px solid black;
   border-radius: 35px;
   background-color: white;
-  color: rgb(77, 36, 36);
+  color: var(--main-color);
 }
 
 /* Products End */
-
-/* Before and After Start */
-
-.transformation {
-  margin: 40px 0;
-}
-
-.transformation h2 {
-  font-family: monospace;
-  color: rgb(245, 202, 210);
-  font-size: 40px;
-  font-weight: 400;
-  margin-bottom: 25px;
-  text-align: center;
-}
-
-.transformation h4 {
-  font-size: 35px;
-  text-align: center;
-  font-weight: 200;
-}
-
-.transformation-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  margin: 30px auto;
-  flex-wrap: wrap;
-  background-color: rgba(245, 202, 210, 0.698);
-  width: 80%;
-}
-
-.transformation-examples {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 30px;
-  overflow: hidden;
-}
-
-.transformation-container img {
-  max-width: 250px;
-  width: 50%;
-  margin: 10px;
-  max-height: 300px;
-  box-shadow: 10px 5px 5px grey;
-}
-
-@media only screen and (max-width: 600px) {
-  .transformation-container {
-    width: 100%;
-  }
-}
-
-/* Before and After End */
 
 /* Footer Responsive Start */
 
@@ -577,7 +525,7 @@ footer {
 }
 
 .socials a:hover i {
-  color: rgb(77, 36, 36);
+  color: var(--main-color);
 }
 
 .footer-bottom {
@@ -650,7 +598,8 @@ footer {
   text-align: center;
   margin: 40px auto;
   font-size: 40px;
-  color: rgb(77, 36, 36);
+  color: var(--main-color);
+
 }
 
 .contact-me {
@@ -659,7 +608,7 @@ footer {
   display: flex;
   text-align: center;
   justify-content: center;
-  background-color: rgb(77, 36, 36);
+  background-color: var(--main-color);
   padding: 50px 0;
   margin-bottom: 40px;
 }
@@ -714,7 +663,7 @@ footer {
 .form-text h1 {
   font-size: 35px;
   margin-bottom: 15px;
-  color: rgb(77, 36, 36);
+  color: var(--main-color);
 }
 .form-text h4 {
   margin-bottom: 10px;
@@ -731,35 +680,6 @@ footer {
   cursor: pointer;
   color: black;
 }
-/* .form-container {
-  background-image: url(./images/contact-img.avif);
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: black;
-  padding: 30px 20px;
-  border: 1px solid black;
-  border-radius: 20px;
-}
-
-.form label {
-  font-size: 18px;
-}
-
-.form input,
-.form textarea {
-  width: 100%;
-  padding: 10px 20px;
-  border-radius: 25px;
-} */
 
 @media only screen and (max-width: 600px) {
   .contact-me {
@@ -836,7 +756,7 @@ textarea {
 
 .about-header h1{
   font-size: 35px;
-  color: rgb(77, 36, 36);
+  color: var(--main-color);
   margin: 40px 0 40px 0;
 }
 
